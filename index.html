@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos</h1>
+        <p>El programa de captura de calificaciones, una herramienta diseñada para simplificar y optimizar el proceso de evaluación académica.</p>
+        <div class="list">
+            <form id="calificacionForm">
+                <label for="cantidadAlumnos">Ingresa la cantidad de alumnos a calificar </label>
+                <input type="number" id="cantidadAlumnos" name="cantidadAlumnos" class="box-text">
+                
+                <div id="contenedorBotones">
+                    <button type="button" onclick="capturarCalificaciones()">Capturar Calificaciones</button>
+                    <button type="button" onclick="borrarCampos()">Borrar Campos</button>
+                    <button type="button" onclick="borrarResultados()">Borrar Resultados</button>
+                </div>
+
+                <div id="alumnosContainer"></div>
+            </form>
+        </div>
+
+        <!-- Resultados se mostrarán aquí -->
+        <div id="resultados"></div>
+
+        <script src="script.js"></script>
+    </header>
+    <footer>
+        <p> &copy; 2024 Jorge Luis Rivera Hoyos. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+

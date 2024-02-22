@@ -1,0 +1,82 @@
+body {
+  background-color: rgb(247, 244, 244);
+}
+
+label {
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+header {
+  border: 2px solid #815a5a;
+  box-shadow: 0 0 5px 2px #1f1d1dc0;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#cantidadAlumnos {
+  background-color: rgb(186, 192, 192);
+  margin-bottom: 30px;
+}
+
+#alumnosContainer {
+    border: 2px solid #b9a2a2;
+    box-shadow: 0 0 5px 2px #c2bbbbc0;
+    margin: 10px;
+    display: inline-block; /* Hace que el contenedor se ajuste al contenido */
+  }
+  
+#calificacionForm {
+  color: rgb(0, 0, 0);
+  padding: 40px;
+}
+
+#resultados {
+  border: 2px solid #b9a2a200;
+  box-shadow: 0 0 5px 2px #ffffff00;
+  padding: 1%;
+  margin-bottom: 20px;
+}
+
+
+#contenedorBotones {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    font-size: 19px;
+    margin-right: 10px; /* Espacio entre botones */
+    border: 2px solid #583b3b;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(5, 0, 7, 0.699);
+    display: inline-block; /* Asegura que los botones estén en línea */
+  }
+
+footer {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.etiqueta-nombre {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.campo-nombre {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.etiqueta-calificacion {
+  font-weight: bold;
+}
+
+.campo-calificacion {
+  width: 50px;
+}
